@@ -67,3 +67,34 @@
         min-height: 400px;
     }
 }
+@media( max-width:823px){
+    /* custom css */
+ h1{
+    font-size: 40px;
+    line-height: 48px;
+ }
+ h2{
+    font-size: 25px;
+
+ }
+ p{
+    font-size: 13px;
+    line-height: 24px;
+ }
+    /* 2 navbar */
+    /*  banner wrapper */
+
+    /*   about */
+    .about_wrapper ul.nav-pills{
+        width: 100%;
+        height: auto;
+        border: 0;
+    }
+    .about_wrapper ul li .nav-link{
+        font-size: 13px;
+    }
+    /* porfolio */
+    .porfolio_wrapper .card{
+        min-height: 400px;
+    }
+}
